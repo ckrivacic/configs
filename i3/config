@@ -20,7 +20,7 @@ exec_always xrandr --output DVI-I-1 --primary
 exec_always xrandr --output DVI-I-1 --left-of DP-0
 
 # Background
-exec --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wp2199393-protein-wallpapers.png
+exec --no-startup-id feh --randomize --bg-fill ~/Pictures/wallpapers/*
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
