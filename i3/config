@@ -165,7 +165,7 @@ bindsym $MOD+x exec i3lock -c 000000
 #}
 bar {
     
-    font pango:Inconsolata 10
+    font pango:Inconsolata 10, FontAwesome 12
     position top
     tray_output none
     status_command ~/.config/bumblebee-status/bumblebee-status \
